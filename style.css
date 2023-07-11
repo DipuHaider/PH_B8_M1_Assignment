@@ -25,13 +25,13 @@
     font-size: 56px;
     font-weight: bold;
     color: #272727;
-    margin: 30px 0;
+    padding: 20px 0;
 }
 
 .description{
     font-size: 14px;
     color: #27272760;
-    margin: 30px 0;
+    padding: 20px 0;
     line-height: 1.5rem;
 }
 
@@ -42,6 +42,7 @@
     border-radius: 5px;
     font-size: 14px;
     padding: 15px 30px;
+    margin-top: 20px;
 }
 
 .banner-image{
@@ -50,3 +51,83 @@
     padding: 20px 20px 0px 20px;
     margin-top: auto;
 }
+
+/* Featured Section */
+.featured-container{
+    display: block;
+    height: 900px;
+    background-color: rgb(219, 219, 219);
+    padding: 100px 50px 50px 50px;
+}
+
+.featured-text{
+    display: block;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.featured-title{
+    font-size: 38px;
+    padding-bottom: 0px;
+}
+
+.featured-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
+}
+
+.box{
+    display: block;
+    width: 400px;
+    height: 450px;
+    color: #272727;
+    text-align: center;
+    padding: 30px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    text-align: center;
+}
+
+.box-1 {
+    background-color: #a6216115;
+}
+
+.box-2 {
+    background-color: #0597A015;
+}
+
+.box-3 {
+    background-color: #477D1115;
+
+}
+
+.box-image {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.box-2 .box-image{
+    margin-top: 105px;
+    margin-bottom: 50px;
+}
+
+.box-3 .box-image{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.box-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.box-title a{
+    color: #272727;
+} 
+.box-title a:hover{
+    color: #E55473;
+}
+
