@@ -186,3 +186,36 @@
 .instagram-text{
     margin-top: 70px;
 }
+
+/* Subscribe Section */
+.subscribe-container{
+    display: block;
+    width: 75vw;
+    height: 450px;
+    text-align: center;
+    margin: 5em auto;
+    background-image: url('./images/rectangle_9.png');
+}
+
+.input-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-text {
+    display: block;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 30px 10px 30px;
+}
+
+input[type="email"] {
+    padding: 16px;
+    width: 700px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 6px;
+    border: none;
+}
