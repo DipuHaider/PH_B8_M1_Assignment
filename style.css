@@ -219,3 +219,27 @@ input[type="email"] {
     border-radius: 6px;
     border: none;
 }
+
+/* Footer section */
+.copyright{
+    font-size: 18px;
+    color: #ffffff40;
+    background-color: #111010;
+    text-align: center;
+    height: 450px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-title {
+    color:#FFFFFF;
+    padding-top: 150px;
+}
+
+.copyright-description {
+    color:#ffffffda;
+    font-size: 20px;
+    width: 650px;
+    margin: 0 auto;
+}
