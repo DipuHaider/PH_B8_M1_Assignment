@@ -1,4 +1,52 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Lato, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+/* Banner Section */
+.banner-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 850px;
+    background-color: #e5547310;
+    padding: 0 10%;
+}
+
+.banner-text{
+    width: 500px;
+    padding: 30px 100px;
+}
+
+.title {
+    font-size: 56px;
+    font-weight: bold;
+    color: #272727;
+    margin: 30px 0;
+}
+
+.description{
+    font-size: 14px;
+    color: #27272760;
+    margin: 30px 0;
+    line-height: 1.5rem;
+}
+
+.btn {
+    background-color: #E55473;
+    color: #FFFFFF;
+    border: 1px solid #E55473;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 15px 30px;
+}
+
+.banner-image{
+    width: 635px;
+    height: 800px;
+    padding: 20px 20px 0px 20px;
+    margin-top: auto;
 }
