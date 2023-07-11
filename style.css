@@ -6,6 +6,54 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
+/* Nav Section */
+
+.menu-container {
+    background-color: #E55473;
+    padding: 20px;
+    color: #fff;
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.logo{
+    display:flex;
+    justify-content: end;
+    align-items: center; 
+}
+
+.logo h2 {
+    margin-left: 10px;
+    background: -webkit-linear-gradient(top, #ff9cb1 , #ffffff);
+    background: -o-linear-gradient(bottom, #ff9cb1, #ffffff);
+    background: -moz-linear-gradient(bottom, #ff9cb1, #ffffff);
+    background: linear-gradient(to bottom, #ff9cb1 , #ffffff); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-photo {
+    width: 50px;
+}
+
+.menus {
+    display:flex;
+    justify-content: end;
+    align-items: center; 
+}
+
+.menus li {
+    margin-left: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+}
+.menus li:hover {
+    color:#0072DB;
+}
+
 /* Banner Section */
 .banner-container{
     display:flex;
@@ -239,7 +287,7 @@ input[type="email"] {
 
 .copyright-description {
     color:#ffffffda;
-    font-size: 20px;
+    font-size: 18px;
     width: 650px;
     margin: 0 auto;
 }
