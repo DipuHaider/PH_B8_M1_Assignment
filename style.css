@@ -10,7 +10,7 @@
 
 .menu-container {
     background-color: #E55473;
-    padding: 20px;
+    padding: 15px;
     color: #fff;
     list-style: none;
     display:flex;
@@ -36,7 +36,7 @@
 }
 
 .logo-photo {
-    width: 50px;
+    width: 35px;
 }
 
 .menus {
@@ -48,7 +48,7 @@
 .menus li {
     margin-left: 10px;
     padding-right: 7px;
-    font-size: 18px;
+    font-size: 16px;
 }
 .menus li:hover {
     color:#0072DB;
@@ -59,25 +59,25 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
-    height: 850px;
+    /* height: 850px; */
     background-color: #e5547310;
     padding: 0 10%;
 }
 
 .banner-text{
-    width: 500px;
-    padding: 30px 100px;
+    width: 550px;
+    padding: 30px 210px;
 }
 
 .title {
-    font-size: 56px;
+    font-size: 38px;
     font-weight: bold;
     color: #272727;
     padding: 20px 0;
 }
 
 .description{
-    font-size: 14px;
+    font-size: 10px;
     color: #27272760;
     padding: 20px 0;
     line-height: 1.5rem;
@@ -88,14 +88,13 @@
     color: #FFFFFF;
     border: 1px solid #E55473;
     border-radius: 5px;
-    font-size: 14px;
-    padding: 15px 30px;
-    margin-top: 20px;
+    font-size: 10px;
+    padding: 10px 20px;
 }
 
 .banner-image{
-    width: 635px;
-    height: 800px;
+    /* width: 635px;
+    height: 800px; */
     padding: 20px 20px 0px 20px;
     margin-top: auto;
 }
@@ -115,7 +114,7 @@
 }
 
 .featured-title{
-    font-size: 38px;
+    font-size: 28px;
     padding-bottom: 0px;
 }
 
@@ -226,9 +225,14 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 500px;
+    height: 400px;
     width: 75vw;
     margin: 0 auto;
+}
+
+.ibox img{ 
+    width: 250px;
+    height:auto;
 }
 
 .instagram-text{
@@ -239,10 +243,13 @@
 .subscribe-container{
     display: block;
     width: 75vw;
-    height: 450px;
+    height: 350px;
     text-align: center;
-    margin: 5em auto;
+    margin: 4em auto;
     background-image: url('./images/rectangle_9.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .input-div {
@@ -256,7 +263,7 @@
     width: 500px;
     text-align: center;
     margin: 0 auto;
-    padding: 100px 30px 10px 30px;
+    padding: 60px 30px 10px 30px;
 }
 
 input[type="email"] {
@@ -270,7 +277,7 @@ input[type="email"] {
 
 /* Footer section */
 .copyright{
-    font-size: 18px;
+    font-size: 12px;
     color: #ffffff40;
     background-color: #111010;
     text-align: center;
@@ -287,7 +294,7 @@ input[type="email"] {
 
 .copyright-description {
     color:#ffffffda;
-    font-size: 18px;
+    font-size: 12px;
     width: 650px;
     margin: 0 auto;
 }
